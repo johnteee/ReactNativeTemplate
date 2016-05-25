@@ -1,0 +1,25 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+target 'ReactNativeSwift' do
+	pod 'AFNetworking', '~> 3.0'
+	pod 'PonyDebugger', '~> 0.4.3'
+	pod 'React', :path => '../common/node_modules/react-native',
+	:subspecs => [ 'Core', 'RCTImage', 'RCTNetwork',
+		'RCTText', 'RCTWebSocket']
+	pod 'react-native-maps', :path => '../common/node_modules/react-native-maps'
+	pod 'react-native-fbsdkcore', :path => '../common/node_modules/react-native-fbsdk/iOS/core'
+	pod 'react-native-fbsdklogin', :path => '../common/node_modules/react-native-fbsdk/iOS/login'
+	pod 'react-native-fbsdkshare', :path => '../common/node_modules/react-native-fbsdk/iOS/share'
+	pod 'FBSDKCoreKit', '~> 4.11'
+	pod 'FBSDKLoginKit', '~> 4.11'
+	pod 'FBSDKShareKit', '~> 4.11'
+end
+
+target 'ReactNativeSwiftTests' do 
+	pod 'SwiftMock'
+end

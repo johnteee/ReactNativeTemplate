@@ -1,0 +1,5 @@
+*/.DS_Store
+ios/Pods
+ios/Podfile.lock
+ios/main.jsbundle
+*/node_modules

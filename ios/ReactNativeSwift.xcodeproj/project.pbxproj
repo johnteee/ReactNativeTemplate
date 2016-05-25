@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61794BBFB98073ABDC07FB82 /* Pods_ReactNativeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0369278AFDC45D680B97F199 /* Pods_ReactNativeSwift.framework */; };
+		6F3AC5C62B50E43B799E1B49 /* Pods_ReactNativeSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF8E061C9667EDDA127BD64 /* Pods_ReactNativeSwiftTests.framework */; };
+		8124CA0F1CDD6F4F00EF9E2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8124CA0E1CDD6F4F00EF9E2D /* AppDelegate.swift */; };
+		8124CA111CDD6F4F00EF9E2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8124CA101CDD6F4F00EF9E2D /* ViewController.swift */; };
+		8124CA141CDD6F4F00EF9E2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8124CA121CDD6F4F00EF9E2D /* Main.storyboard */; };
+		8124CA171CDD6F4F00EF9E2D /* ReactNativeSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8124CA151CDD6F4F00EF9E2D /* ReactNativeSwift.xcdatamodeld */; };
+		8124CA191CDD6F4F00EF9E2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8124CA181CDD6F4F00EF9E2D /* Assets.xcassets */; };
+		8124CA1C1CDD6F4F00EF9E2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8124CA1A1CDD6F4F00EF9E2D /* LaunchScreen.storyboard */; };
+		8124CA271CDD6F4F00EF9E2D /* ReactNativeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8124CA261CDD6F4F00EF9E2D /* ReactNativeSwiftTests.swift */; };
+		8124CA321CDD6F4F00EF9E2D /* ReactNativeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8124CA311CDD6F4F00EF9E2D /* ReactNativeSwiftUITests.swift */; };
+		816EBC731CDDCCB7002C78D6 /* ReactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816EBC721CDDCCB7002C78D6 /* ReactView.swift */; };
+		816EBC751CDF0A15002C78D6 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 816EBC741CDF0A15002C78D6 /* main.jsbundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8124CA231CDD6F4F00EF9E2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8124CA031CDD6F4F00EF9E2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8124CA0A1CDD6F4F00EF9E2D;
+			remoteInfo = ReactNativeSwift;
+		};
+		8124CA2E1CDD6F4F00EF9E2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8124CA031CDD6F4F00EF9E2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8124CA0A1CDD6F4F00EF9E2D;
+			remoteInfo = ReactNativeSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0369278AFDC45D680B97F199 /* Pods_ReactNativeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactNativeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2237CD4953E29D3E29048047 /* Pods-ReactNativeSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeSwift/Pods-ReactNativeSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		6000281B320CC4C83DB00409 /* Pods-ReactNativeSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeSwift/Pods-ReactNativeSwift.release.xcconfig"; sourceTree = "<group>"; };
+		8124CA0B1CDD6F4F00EF9E2D /* ReactNativeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8124CA0E1CDD6F4F00EF9E2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8124CA101CDD6F4F00EF9E2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8124CA131CDD6F4F00EF9E2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8124CA161CDD6F4F00EF9E2D /* ReactNativeSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReactNativeSwift.xcdatamodel; sourceTree = "<group>"; };
+		8124CA181CDD6F4F00EF9E2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8124CA1B1CDD6F4F00EF9E2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8124CA1D1CDD6F4F00EF9E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8124CA221CDD6F4F00EF9E2D /* ReactNativeSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8124CA261CDD6F4F00EF9E2D /* ReactNativeSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeSwiftTests.swift; sourceTree = "<group>"; };
+		8124CA281CDD6F4F00EF9E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8124CA2D1CDD6F4F00EF9E2D /* ReactNativeSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8124CA311CDD6F4F00EF9E2D /* ReactNativeSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeSwiftUITests.swift; sourceTree = "<group>"; };
+		8124CA331CDD6F4F00EF9E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816EBC721CDDCCB7002C78D6 /* ReactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactView.swift; sourceTree = "<group>"; };
+		816EBC741CDF0A15002C78D6 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		B5E2552F02168CBB2EA0503C /* Pods-ReactNativeSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeSwiftTests/Pods-ReactNativeSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C010B9A79073FA221F4E034D /* Pods-ReactNativeSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeSwiftTests/Pods-ReactNativeSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		CDF8E061C9667EDDA127BD64 /* Pods_ReactNativeSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactNativeSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8124CA081CDD6F4F00EF9E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61794BBFB98073ABDC07FB82 /* Pods_ReactNativeSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8124CA1F1CDD6F4F00EF9E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3AC5C62B50E43B799E1B49 /* Pods_ReactNativeSwiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8124CA2A1CDD6F4F00EF9E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8124CA021CDD6F4F00EF9E2D = {
+			isa = PBXGroup;
+			children = (
+				816EBC741CDF0A15002C78D6 /* main.jsbundle */,
+				8124CA0D1CDD6F4F00EF9E2D /* ReactNativeSwift */,
+				8124CA251CDD6F4F00EF9E2D /* ReactNativeSwiftTests */,
+				8124CA301CDD6F4F00EF9E2D /* ReactNativeSwiftUITests */,
+				8124CA0C1CDD6F4F00EF9E2D /* Products */,
+				BBFAED83B258D9FC3257FBD9 /* Pods */,
+				9158C1ADA597E3A619D8203C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8124CA0C1CDD6F4F00EF9E2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8124CA0B1CDD6F4F00EF9E2D /* ReactNativeSwift.app */,
+				8124CA221CDD6F4F00EF9E2D /* ReactNativeSwiftTests.xctest */,
+				8124CA2D1CDD6F4F00EF9E2D /* ReactNativeSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8124CA0D1CDD6F4F00EF9E2D /* ReactNativeSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8124CA0E1CDD6F4F00EF9E2D /* AppDelegate.swift */,
+				8124CA101CDD6F4F00EF9E2D /* ViewController.swift */,
+				8124CA121CDD6F4F00EF9E2D /* Main.storyboard */,
+				8124CA181CDD6F4F00EF9E2D /* Assets.xcassets */,
+				8124CA1A1CDD6F4F00EF9E2D /* LaunchScreen.storyboard */,
+				8124CA1D1CDD6F4F00EF9E2D /* Info.plist */,
+				8124CA151CDD6F4F00EF9E2D /* ReactNativeSwift.xcdatamodeld */,
+				816EBC721CDDCCB7002C78D6 /* ReactView.swift */,
+			);
+			path = ReactNativeSwift;
+			sourceTree = "<group>";
+		};
+		8124CA251CDD6F4F00EF9E2D /* ReactNativeSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				8124CA261CDD6F4F00EF9E2D /* ReactNativeSwiftTests.swift */,
+				8124CA281CDD6F4F00EF9E2D /* Info.plist */,
+			);
+			path = ReactNativeSwiftTests;
+			sourceTree = "<group>";
+		};
+		8124CA301CDD6F4F00EF9E2D /* ReactNativeSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8124CA311CDD6F4F00EF9E2D /* ReactNativeSwiftUITests.swift */,
+				8124CA331CDD6F4F00EF9E2D /* Info.plist */,
+			);
+			path = ReactNativeSwiftUITests;
+			sourceTree = "<group>";
+		};
+		9158C1ADA597E3A619D8203C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0369278AFDC45D680B97F199 /* Pods_ReactNativeSwift.framework */,
+				CDF8E061C9667EDDA127BD64 /* Pods_ReactNativeSwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBFAED83B258D9FC3257FBD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2237CD4953E29D3E29048047 /* Pods-ReactNativeSwift.debug.xcconfig */,
+				6000281B320CC4C83DB00409 /* Pods-ReactNativeSwift.release.xcconfig */,
+				B5E2552F02168CBB2EA0503C /* Pods-ReactNativeSwiftTests.debug.xcconfig */,
+				C010B9A79073FA221F4E034D /* Pods-ReactNativeSwiftTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8124CA0A1CDD6F4F00EF9E2D /* ReactNativeSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8124CA361CDD6F4F00EF9E2D /* Build configuration list for PBXNativeTarget "ReactNativeSwift" */;
+			buildPhases = (
+				CACD2BC126518359AD350C93 /* 📦 Check Pods Manifest.lock */,
+				8124CA071CDD6F4F00EF9E2D /* Sources */,
+				8124CA081CDD6F4F00EF9E2D /* Frameworks */,
+				8124CA091CDD6F4F00EF9E2D /* Resources */,
+				833A258E05D014BB8AD2B0EC /* 📦 Embed Pods Frameworks */,
+				703CD4E65E0D6E4AC6746480 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativeSwift;
+			productName = ReactNativeSwift;
+			productReference = 8124CA0B1CDD6F4F00EF9E2D /* ReactNativeSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8124CA211CDD6F4F00EF9E2D /* ReactNativeSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8124CA391CDD6F4F00EF9E2D /* Build configuration list for PBXNativeTarget "ReactNativeSwiftTests" */;
+			buildPhases = (
+				CD6164EB0985E0616BEE844C /* 📦 Check Pods Manifest.lock */,
+				8124CA1E1CDD6F4F00EF9E2D /* Sources */,
+				8124CA1F1CDD6F4F00EF9E2D /* Frameworks */,
+				8124CA201CDD6F4F00EF9E2D /* Resources */,
+				F781028D003A7427131F98B7 /* 📦 Embed Pods Frameworks */,
+				4B2C162B1D68736EBF8120E3 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8124CA241CDD6F4F00EF9E2D /* PBXTargetDependency */,
+			);
+			name = ReactNativeSwiftTests;
+			productName = ReactNativeSwiftTests;
+			productReference = 8124CA221CDD6F4F00EF9E2D /* ReactNativeSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8124CA2C1CDD6F4F00EF9E2D /* ReactNativeSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8124CA3C1CDD6F4F00EF9E2D /* Build configuration list for PBXNativeTarget "ReactNativeSwiftUITests" */;
+			buildPhases = (
+				8124CA291CDD6F4F00EF9E2D /* Sources */,
+				8124CA2A1CDD6F4F00EF9E2D /* Frameworks */,
+				8124CA2B1CDD6F4F00EF9E2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8124CA2F1CDD6F4F00EF9E2D /* PBXTargetDependency */,
+			);
+			name = ReactNativeSwiftUITests;
+			productName = ReactNativeSwiftUITests;
+			productReference = 8124CA2D1CDD6F4F00EF9E2D /* ReactNativeSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8124CA031CDD6F4F00EF9E2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "LeeJunYi JohnTeee";
+				TargetAttributes = {
+					8124CA0A1CDD6F4F00EF9E2D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8124CA211CDD6F4F00EF9E2D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8124CA0A1CDD6F4F00EF9E2D;
+					};
+					8124CA2C1CDD6F4F00EF9E2D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8124CA0A1CDD6F4F00EF9E2D;
+					};
+				};
+			};
+			buildConfigurationList = 8124CA061CDD6F4F00EF9E2D /* Build configuration list for PBXProject "ReactNativeSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8124CA021CDD6F4F00EF9E2D;
+			productRefGroup = 8124CA0C1CDD6F4F00EF9E2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8124CA0A1CDD6F4F00EF9E2D /* ReactNativeSwift */,
+				8124CA211CDD6F4F00EF9E2D /* ReactNativeSwiftTests */,
+				8124CA2C1CDD6F4F00EF9E2D /* ReactNativeSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8124CA091CDD6F4F00EF9E2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8124CA1C1CDD6F4F00EF9E2D /* LaunchScreen.storyboard in Resources */,
+				8124CA191CDD6F4F00EF9E2D /* Assets.xcassets in Resources */,
+				8124CA141CDD6F4F00EF9E2D /* Main.storyboard in Resources */,
+				816EBC751CDF0A15002C78D6 /* main.jsbundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8124CA201CDD6F4F00EF9E2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8124CA2B1CDD6F4F00EF9E2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B2C162B1D68736EBF8120E3 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeSwiftTests/Pods-ReactNativeSwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		703CD4E65E0D6E4AC6746480 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeSwift/Pods-ReactNativeSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		833A258E05D014BB8AD2B0EC /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeSwift/Pods-ReactNativeSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CACD2BC126518359AD350C93 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD6164EB0985E0616BEE844C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F781028D003A7427131F98B7 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeSwiftTests/Pods-ReactNativeSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8124CA071CDD6F4F00EF9E2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816EBC731CDDCCB7002C78D6 /* ReactView.swift in Sources */,
+				8124CA171CDD6F4F00EF9E2D /* ReactNativeSwift.xcdatamodeld in Sources */,
+				8124CA111CDD6F4F00EF9E2D /* ViewController.swift in Sources */,
+				8124CA0F1CDD6F4F00EF9E2D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8124CA1E1CDD6F4F00EF9E2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8124CA271CDD6F4F00EF9E2D /* ReactNativeSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8124CA291CDD6F4F00EF9E2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8124CA321CDD6F4F00EF9E2D /* ReactNativeSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8124CA241CDD6F4F00EF9E2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8124CA0A1CDD6F4F00EF9E2D /* ReactNativeSwift */;
+			targetProxy = 8124CA231CDD6F4F00EF9E2D /* PBXContainerItemProxy */;
+		};
+		8124CA2F1CDD6F4F00EF9E2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8124CA0A1CDD6F4F00EF9E2D /* ReactNativeSwift */;
+			targetProxy = 8124CA2E1CDD6F4F00EF9E2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8124CA121CDD6F4F00EF9E2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8124CA131CDD6F4F00EF9E2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8124CA1A1CDD6F4F00EF9E2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8124CA1B1CDD6F4F00EF9E2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8124CA341CDD6F4F00EF9E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2237CD4953E29D3E29048047 /* Pods-ReactNativeSwift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8124CA351CDD6F4F00EF9E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6000281B320CC4C83DB00409 /* Pods-ReactNativeSwift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8124CA371CDD6F4F00EF9E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2237CD4953E29D3E29048047 /* Pods-ReactNativeSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ReactNativeSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		8124CA381CDD6F4F00EF9E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6000281B320CC4C83DB00409 /* Pods-ReactNativeSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ReactNativeSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		8124CA3A1CDD6F4F00EF9E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E2552F02168CBB2EA0503C /* Pods-ReactNativeSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReactNativeSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ReactNativeSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeSwift.app/ReactNativeSwift";
+			};
+			name = Debug;
+		};
+		8124CA3B1CDD6F4F00EF9E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C010B9A79073FA221F4E034D /* Pods-ReactNativeSwiftTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReactNativeSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ReactNativeSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeSwift.app/ReactNativeSwift";
+			};
+			name = Release;
+		};
+		8124CA3D1CDD6F4F00EF9E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReactNativeSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ReactNativeSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReactNativeSwift;
+			};
+			name = Debug;
+		};
+		8124CA3E1CDD6F4F00EF9E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReactNativeSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ReactNativeSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReactNativeSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8124CA061CDD6F4F00EF9E2D /* Build configuration list for PBXProject "ReactNativeSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8124CA341CDD6F4F00EF9E2D /* Debug */,
+				8124CA351CDD6F4F00EF9E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8124CA361CDD6F4F00EF9E2D /* Build configuration list for PBXNativeTarget "ReactNativeSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8124CA371CDD6F4F00EF9E2D /* Debug */,
+				8124CA381CDD6F4F00EF9E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8124CA391CDD6F4F00EF9E2D /* Build configuration list for PBXNativeTarget "ReactNativeSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8124CA3A1CDD6F4F00EF9E2D /* Debug */,
+				8124CA3B1CDD6F4F00EF9E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8124CA3C1CDD6F4F00EF9E2D /* Build configuration list for PBXNativeTarget "ReactNativeSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8124CA3D1CDD6F4F00EF9E2D /* Debug */,
+				8124CA3E1CDD6F4F00EF9E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8124CA151CDD6F4F00EF9E2D /* ReactNativeSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8124CA161CDD6F4F00EF9E2D /* ReactNativeSwift.xcdatamodel */,
+			);
+			currentVersion = 8124CA161CDD6F4F00EF9E2D /* ReactNativeSwift.xcdatamodel */;
+			path = ReactNativeSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8124CA031CDD6F4F00EF9E2D /* Project object */;
+}

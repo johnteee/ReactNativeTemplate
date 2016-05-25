@@ -1,0 +1,19 @@
+{
+  "name": "reactProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "moment": "^2.13.0",
+    "pubsub-js": "^1.5.3",
+    "react": "^0.14.8",
+    "react-native": "^0.25.1",
+    "react-native-console-panel": "0.0.8",
+    "react-native-fbsdk": "^0.1.0",
+    "react-native-maps": "^0.4.2",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.3.4"
+  }
+}
