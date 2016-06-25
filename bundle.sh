@@ -1,0 +1,2 @@
+./bundleios.sh
+./bundleandroid.sh
